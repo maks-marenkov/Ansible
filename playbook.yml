@@ -1,0 +1,14 @@
+- hosts: pve
+
+  tasks:
+  - name: create
+    community.general.proxmox:
+      node: pve
+      api_user: root@pam
+      api_password: 4618346
+      api_host: pve
+      password: 4618346
+      hostname: deb2
+      cores: 2
+      memory: 1024
+      ostemplate: 'local:vztmpl/deb11.tar.gz'
