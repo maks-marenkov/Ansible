@@ -5,9 +5,9 @@
     community.general.proxmox:
       node: pve
       api_user: root@pam
-      api_password: 4618346
+      api_password: 12345678
       api_host: pve
-      password: 4618346
+      password: 12345678
       hostname: deb2
       cores: 2
       memory: 1024
