@@ -1,7 +1,7 @@
 - hosts: pve
 
   tasks:
-  - name: create
+  - name: create CT
     community.general.proxmox:
       node: pve
       api_user: root@pam
